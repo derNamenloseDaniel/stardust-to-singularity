@@ -89,7 +89,9 @@ jobs:
             jq -n \
               --arg username "Stardust to Singularity" \
               --argjson embeds "$EMBEDS" \
-              '{"username": $username, "embeds": $embeds}' > "$TMPFILE"
+              '{"username": $username, "embeds": $embeds,
+                "content": "<@&1535341243964456990>",
+                "allowed_mentions": {"roles": ["1535341243964456990"]}}' > "$TMPFILE"
             RESPONSE=$(curl -s -f \
                             -H "Content-Type: application/json" \
                             -d "@$TMPFILE" \
