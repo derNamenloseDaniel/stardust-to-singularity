@@ -30,3 +30,10 @@ npm run dev       # Dev-Server; Browser-Konsole: dev.state(), dev.grant('dust.am
 - `frame()`-Offline-Pfad: nach `simulateOffline` muss `last = performance.now()` neu gesetzt werden (sonst Re-Entry-Spirale).
 - Additive Partikel-Shader übersteuern schnell: Alpha niedrig halten, Bloom-Threshold ≥ 0.6.
 - Preview-Panel drosselt rAF, wenn unsichtbar → UI-Updates/Screenshots stehen; ist kein Spielfehler.
+- **Kein Reset-Gate auf einem monoton wachsenden Lifetime-Zähler** (z. B. `totalEntropy`): Ist die
+  Schwelle einmal erreicht, bleibt die Bedingung für immer erfüllt — der Reset wird kostenlos
+  beliebig oft wiederholbar (real: `newUniverse()` prüfte `totalEntropy` statt der bankbaren
+  `entropy`, 07.08.2026). Jedes wiederholbare Reset-Gate braucht eine Ressource, die beim Reset
+  selbst verbraucht/genullt wird (wie `entropy`, `nova.totalShards`, `galaxy.totalDM` bei den
+  anderen Ebenen), plus eine mit dem Zähler der Wiederholungen eskalierende Anforderung
+  (`newUniverseReq()` als Vorbild).
