@@ -2,7 +2,7 @@
 
 **A 3D incremental game — from a single mote of dust to the singularity.**
 
-🎮 **Play now:** https://danielzaiser91.github.io/stardust-to-singularity/
+🎮 **Play now:** https://dernamenlosedaniel.github.io/stardust-to-singularity/
 
 Begin as a speck of cosmic dust. Attract matter, ignite a star, fuse elements to iron, go supernova, seed nebulae, coalesce a galaxy, and finally collapse into a singularity — five prestige layers, each with its own mechanics and its own fully animated 3D scene.
 

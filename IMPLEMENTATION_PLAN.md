@@ -1,7 +1,7 @@
 # Stardust to Singularity — Implementationsplan
 
 > 3D-Incremental-Game für Browser & Mobile. Vom Staubkorn zur Singularität.
-> Live: https://danielzaiser91.github.io/stardust-to-singularity/
+> Live: https://dernamenlosedaniel.github.io/stardust-to-singularity/
 
 ---
 
