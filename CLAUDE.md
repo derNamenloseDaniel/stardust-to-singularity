@@ -1,6 +1,6 @@
 # Stardust to Singularity — Projektregeln
 
-3D-Incremental-Game (Browser/Mobile). Live: https://danielzaiser91.github.io/stardust-to-singularity/
+3D-Incremental-Game (Browser/Mobile). Live: https://dernamenlosedaniel.github.io/stardust-to-singularity/
 Vollständiger Plan: [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md)
 
 ## Architektur-Invarianten

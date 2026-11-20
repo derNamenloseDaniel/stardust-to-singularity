@@ -16,7 +16,7 @@ ist nur noch **ein** Eintrag nötig, siehe ganz unten.
 Minimal, wie bei den anderen Projekten (chrome-utilities, anime-adventure):
 
 - **#welcome** — kurze Begrüßung + Link zum Spiel
-  (`https://danielzaiser91.github.io/stardust-to-singularity/`)
+  (`https://dernamenlosedaniel.github.io/stardust-to-singularity/`)
 - **#news** — Patchnotes/Updates. Für automatische Posts bei jedem Push gibt es bereits die
   Automation aus den anderen Projekten — einfach `/ai-implement-discord-news-automation`
   in einer neuen Claude-Code-Session in diesem Ordner ausführen, sobald der Webhook existiert

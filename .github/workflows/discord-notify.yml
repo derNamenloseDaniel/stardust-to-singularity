@@ -63,7 +63,7 @@ jobs:
             --arg title "$TITLE" \
             --arg changelog "$CHANGELOG" \
             --arg version "v$VERSION" \
-            --arg url "https://danielzaiser91.github.io/stardust-to-singularity/" \
+            --arg url "https://dernamenlosedaniel.github.io/stardust-to-singularity/" \
             '[{
               "title": $title,
               "description": ("**Stardust to Singularity** wurde aktualisiert!\n\n" + $changelog),
